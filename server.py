@@ -16,7 +16,7 @@ class Server(object):
 
 
 def doServerLogic(moveList):
-    return "Antwort vom Server"
+    return "Moves die der Client ausführen muss"
 
 def main():
     Pyro4.Daemon.serveSimple(
